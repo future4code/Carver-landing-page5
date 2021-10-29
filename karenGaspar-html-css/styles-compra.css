@@ -1,0 +1,84 @@
+/* ESTILIZAÇÃO PÁGINA DE COMPRAS DO MERCADO ONLINE */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 150px 1fr 100px;
+    background-color:#ffffff;
+    min-height: 100vh;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 10px;
+    
+}
+
+/* header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: #ffffff;
+    background-color: #66402b;
+} */
+
+#titulo {
+    margin: 20px;
+    text-align: center;
+    color: #66402b;
+}
+#container-descricao{
+    margin: 20px;
+    color: #66402b;
+    border: 1px solid black;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+.imagem-sessao{
+    width: 100%;
+}
+.imagem-sessao:hover{
+    opacity: 50%;
+}
+.imagem-sessao:active{
+    opacity: unset;
+}
+#imagem-4food{
+    width: 100%;
+}
+
+.card-sessoes {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #66402b;
+    box-shadow: 1px 1px 1px 3px #66402b;
+}
+
+#card-logo{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+    font-size: large;
+    background-color: #66402b;
+}
