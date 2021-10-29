@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
+header{
+    height: 60px;
+    background-color: brown;
+    align-self: flex-start;
+    width: 100vw;
+}
 #conteudo{
     display: flex;
     flex-direction: column;
@@ -10,9 +15,14 @@
     align-items: center;
     width: 100vw;
     color: #66402b;
+    height: 100vh;
+    flex-grow: 1;
 }
 div#conteudo>p{
     width: 70vw;
+    border: solid 1px #66402b;
+    padding: 1%;
+    text-align: center;
 }
 #kits{
     display: flex;
@@ -20,6 +30,7 @@ div#conteudo>p{
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+
 }
 .kit{
     display: flex;
@@ -39,4 +50,14 @@ img{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+h2{
+    align-self: center;
+}
+footer{
+    height: 60px;
+    background-color: brown;
+    align-self: flex-end;
+    width: 100vw;
 }
