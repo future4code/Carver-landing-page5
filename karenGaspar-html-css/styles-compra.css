@@ -12,19 +12,23 @@ body{
     min-height: 100vh;
 }
 
-/* header img{
-    width: 120px;
-    margin-top: 3px;
-} */
 
-header {
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 10px;
+    
+}
+
+/* header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
     color: #ffffff;
     background-color: #66402b;
-}
+} */
 
 #titulo {
     margin: 20px;
