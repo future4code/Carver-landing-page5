@@ -1,0 +1,114 @@
+/* STYLE INDEX */
+*{
+    margin: 0;
+    padding: 0;
+   
+ }
+
+
+    body{
+font-family: 'Mukta', sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 10px;
+    height: 50px;
+    background-color: royalblue;
+    
+}
+
+li, a, button{
+    font-weight: 550px;
+    font-size: 13px;
+    color: red;
+    text-decoration:none
+}
+
+button {
+    padding: 0x 20px;
+    font-size: 10px;
+    align-items: center;
+    border:1px black;
+    
+
+}
+
+button {
+    padding: 9px 23px;
+
+}
+
+section {
+    display:flex;
+    align-items: center;
+
+}
+
+.search-box{
+    height:40px;
+    border-radius: 40px; 
+    padding: 9px
+    
+}
+
+.img-logo{
+    max-width: 150px;
+    max-height: 150px;
+    
+}
+
+.img-about{
+    height: 150px;
+    width: 200px;
+    
+    
+
+}
+
+.click :hover{
+    justify-content: space-around;
+    color:blue;
+
+
+}
+
+.menu-links li{
+    display: inline-block;
+    align-items: flex-end;
+    padding: 0px 40px;
+    
+}
+
+
+.menu-links li a:hover{
+    color: black
+}
+
+.footer-container{
+    background-color: chocolate;
+    padding-bottom: 20px
+
+}
+
+.footer{
+    
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    
+    margin: 0 auto;
+    }
+
+    
+
+.footer-title1 h2{
+    margin-bottom: 2rem;
+}
+.footer-title1 a{
+
+
+}
