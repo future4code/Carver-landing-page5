@@ -7,45 +7,45 @@
 
 body{
     display: grid;
-    grid-template-rows: 150px 1fr 100px;
+    grid-template-rows: 50px 1fr 100px;
     background-color:#ffffff;
-    min-height: 100vh;
+    min-height: 80vh;
 }
-
 
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px, 10px;
-    
+    padding: 0 30px; 
+    height: 50px;
+    background-color: #66402b;
 }
 
-/* header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    color: #ffffff;
-    background-color: #66402b;
-} */
+input{
+    height: 25px;
+    margin-right: 20px;
+}
 
 #titulo {
+    padding-top: 20px;
     margin: 20px;
     text-align: center;
     color: #66402b;
 }
+
 #container-descricao{
-    margin: 20px;
+    text-align: center;
+    margin: 10px;
     color: #66402b;
-    border: 1px solid black;
+    font-size: larger;
 }
+
 main {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
-    margin: 20px;
+    margin: 0 20px;
 }
 .imagem-sessao{
     width: 100%;
@@ -66,7 +66,20 @@ main {
     justify-content: space-between;
     align-items: center;
     color: #66402b;
-    box-shadow: 1px 1px 1px 3px #66402b;
+    padding: 7px 4px;
+    background-color: #e7e1de;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+.lista {
+    visibility: hidden;
+}
+
+.card-sessoes:hover .lista{
+    visibility: visible;
 }
 
 #card-logo{
@@ -82,3 +95,20 @@ footer {
     font-size: large;
     background-color: #66402b;
 }
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    /* tablets */
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+    
