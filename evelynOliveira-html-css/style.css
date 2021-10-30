@@ -5,27 +5,39 @@
    
  }
 
-
-    body{
-font-family: 'Mukta', sans-serif;
+body{
+font-family: 'Garamond';
 }
 
 
 header{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px, 10px;
-    height: 50px;
-    background-color: royalblue;
     
+    align-items: center;
+    height: 50px;
+    background-color:white;
+    border: 2px solid black;
+    
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#cart{
+    width: 20px;
+
 }
 
 li, a, button{
     font-weight: 550px;
     font-size: 13px;
     color: red;
-    text-decoration:none
+    text-decoration:none;
 }
 
 button {
@@ -45,29 +57,37 @@ button {
 section {
     display:flex;
     align-items: center;
+    border:2px red;
 
 }
 
 .search-box{
     height:40px;
     border-radius: 40px; 
-    padding: 9px
+    padding: 9px;
     
 }
 
 .img-logo{
-    max-width: 150px;
-    max-height: 150px;
-    
+    width: 120px;
+        
 }
 
-.img-about{
+/* .img-about{
     height: 150px;
-    width: 200px;
-    
-    
+    width: 200px; */
 
-}
+section>div{
+    display: flex;
+    height: 40vh;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    text-align: justify;
+    
+    
+} 
 
 .click :hover{
     justify-content: space-around;
@@ -88,27 +108,36 @@ section {
     color: black
 }
 
-.footer-container{
-    background-color: chocolate;
-    padding-bottom: 20px
 
-}
 
-.footer{
+footer{
     
-    height: 70px;
+    height: 90px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-evenly;
+    border: 2px solid black;
     margin: 0 auto;
+    list-style: none;
     }
 
     
 
-.footer-title1 h2{
-    margin-bottom: 2rem;
+.footer-title-4 {
+    display: flex;
+    flex-direction: column;
 }
-.footer-title1 a{
+
+.footer-title-4 div {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.footer-title-4 img {
+    width: 20px;
+
+}
 
 
-}
