@@ -200,11 +200,6 @@ h3{
         grid-template-columns: repeat(2, 1fr);
     }
 
-    footer{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .footer-title-2 {
         margin-top: 10px;
     }
