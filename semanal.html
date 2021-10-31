@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4 Food</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
+    <link rel="stylesheet" href="semanal.css">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Mukta:wght@600&display=swap"
         rel="stylesheet">
-
-
+    <title>Kits de Refeições pra Semana</title>
 </head>
 
 <body>
     <header>
         <nav>
             <img class="img-logo" src="img/4food .png" alt="logo">
-            <a href="compra-online.html">Produtos</a>
-            <a href="semanal.html">Kits Semanais</a>
+            <a id="compras" href="compras-online.html">Produtos</a>
+            <a id="inicial" href="index.html">Página inicial</a>
             <input class="search-text" type="text" name="" value="" placeholder="procure seu item">
             <div>
                 <a class="click" href="#"><button>Login</button></a>
@@ -28,27 +24,46 @@
             </div>
             <img id="cart" src="img\shopping-cart.png" alt="cart"></img>
         </nav>
-
     </header>
-    <section>
-        <img class="img-about" src="img\logo.png" alt="logo">
+    <div id="conteudo">
+        <h2>Kits de Refeições pra semana</h2>
+        <p>Oferecemos soluções deliciosas e saudáveis pra quem precisa de praticidade sem abrir mão da qualidade. Todos
+            os nossos pratos são elaborados pela nossa equipe de chefs e nutricionistas, com ingredientes orgânicos,
+            frescos e selecionados. <br> Cada kit é composto por 7 pratos diferentes, garantindo uma alimentação
+            nutritiva e diversificada.</p>
+        <div id="kits">
+            <div class="kit">
+                <div class="titulo-kit">
+                    <h3>Kit Vegano</h3>
+                    <p>R$75,00</p>
+                </div>
+                <img class="prato" src="img/vegano01.jpg" alt="">
+                <p>Pratos prontos, deliciosos e orgânicos, sem ingredientes de origem animal.</p>
+            </div>
 
-        <div>
-            <h3>SOBRE NÓS</h3>
-            <p> Viver bem começa com comer bem. Essa é a razão pela qual não trabalhamos com produtos que usam gordura
-                hidrogenada, frutose em grande quantidade, adoçantes artificiais e os mais de 100 sabores, cores e
-                conservantes que são normalmente encontrados nos alimentos. Se você quer saber o que tem nos produtos
-                que você compra, nós facilitamos isso pra você, pois se o alimento não se encaixa no nosso padrão, não o
-                vendemos.
-            </p>
+            <div class="kit">
+                <div class="titulo-kit">
+                    <h3>Kit Fitness</h3>
+                    <p>R$85,00</p>
+                </div>
+                <img class="prato" src="img/fitness01.jpg" alt="">
+                <p>Refeições com baixo teor calórico e de gorduras e com equilíbrio entre proteínas e carboidratos.</p>
+            </div>
+
+            <div class="kit">
+                <div class="titulo-kit">
+                    <h3>Kit Low Carb</h3>
+                    <p>R$90,00</p>
+                </div>
+                <img class="prato" src="img/lowcarb01.jpg" alt="">
+                <p>Baixo teor de carboidratos, baseada em verduras, legumes, ovos, carnes e oleaginosas</p>
+            </div>
         </div>
+    </div>
 
-        </section>
+    <footer>
 
-    
-<footer>
-             
-            <div class="footer-title-1">
+        <div class="footer-title-1">
             <h3> Sobre Nós</h3>
             <li><a href="#">Nossa História</a></li>
             <li><a href="#">Nossas Lojas</a></li>
@@ -67,9 +82,8 @@
             <li><a href="#">Projeto</a></li>
         </div>
         <div class="footer-title-4">
-          <h3>Redes Sociais</h3>
+            <h3>Redes Sociais</h3>
             <div>
-                <!-- <a target="_blank" href="http://www.google.com/%22%3ELink"</a> -->
                 <a target="_blank" href="http://www.instagram.com"><img src="img\icon-instagram.png"></img></a>
                 <a target="_blank" href="http://www.facebook.com"><img src="img\icon-facebook.png"></img></a>
                 <a target="_blank" href="http://www.twitter.com"><img src="img\icon-twitter.png"></img></a>
@@ -81,8 +95,6 @@
             <li><button> Enviar </button> </li>
         </div>
     </footer>
-
-
 </body>
 
 </html>
