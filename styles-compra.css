@@ -131,9 +131,17 @@ footer{
     list-style: none;
 }
 
+h3{
+    color: #592d15;
+}
+
 .footer-title-4 {
     display: flex;
     flex-direction: column;
+}
+
+.footer-title-4 img:hover{
+    opacity: 50%;
 }
 
 .footer-title-4 div {
