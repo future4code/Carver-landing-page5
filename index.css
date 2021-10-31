@@ -195,3 +195,42 @@ h3{
 
     }
 }
+
+/* :-moz-user-disabled */
+@media screen and (max-device-width : 480px) {
+    /* celulares */
+
+    header{
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-content: center;
+        margin: 20px;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-title-2 {
+        margin-top: 10px;
+    }
+
+    .footer-title-3 {
+        margin-top: 10px;
+    }
+
+    .footer-title-4 {
+        margin-top: 10px;
+    }
+
+    .footer-email{
+        margin-top: 10px;
+    }
+
+}
