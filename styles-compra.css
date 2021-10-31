@@ -9,10 +9,11 @@ body{
     display: grid;
     grid-template-rows: 50px 1fr 100px;
     background-color:#ffffff;
-    min-height: 100vh;
+    min-height: 80vh;
     font-family: 'Garamond';
 }
 
+/*  Ajustes do cabeçalho */
 header{
     display: flex;
     align-items: center;
@@ -57,6 +58,8 @@ input{
     margin-right: 20px;
 }
 
+/* Ajuste  de título e parágrafo*/
+
 #titulo {
     padding-top: 20px;
     margin: 20px;
@@ -70,6 +73,8 @@ input{
     color: #66402b;
     font-size: larger;
 }
+
+/* Ajuste da parte principal da tela, onde tem as imagens das sessões do produto */
 
 main {
     display: grid;
@@ -124,11 +129,13 @@ h4{
     opacity: 50%;
 }
 
+/* Ajustes do rodapé */
 footer{
     height: 100px;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    margin: 50px;
 }
 
 h3{
@@ -161,37 +168,62 @@ h3{
     color: white;
 }
 
-@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+/* Ajustes de responsividade */
+
+@media screen and (max-device-width : 480px) {
     /* celulares */
     main{
         display: grid;
         grid-template-columns: 1fr;
+        margin-top: 20px;
     }
+
+    header{
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    #titulo{
+        margin-top: 50px;
+    }
+
     nav {
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        align-content: center;
+        margin: 20px;
     }
 
     footer{
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
+
 @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
     /* tablets */
     main{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    header{
+        height: 100px;
+        margin-top: 10px;
+    }
+
     nav {
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        align-content: center;
+        margin: 30px;
     }
 
     footer{
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
     
