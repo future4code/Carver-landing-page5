@@ -218,28 +218,4 @@ h3{
 
 }
 
-@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-    /* tablets */
-    main{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    header{
-        height: 100px;
-        margin-top: 10px;
-    }
-
-    nav {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        align-content: center;
-        margin: 30px;
-    }
-
-    footer{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
     
