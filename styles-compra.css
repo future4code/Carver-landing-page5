@@ -176,12 +176,6 @@ h3{
     main{
         display: grid;
         grid-template-columns: 1fr;
-<<<<<<< HEAD
-    }
-    nav {
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-=======
         margin-top: 20px;
     }
 
@@ -199,16 +193,11 @@ h3{
         grid-template-columns: repeat(3, 1fr);
         align-content: center;
         margin: 20px;
->>>>>>> 38f2049485d1765516828b1978dbafe5c1a4eb64
     }
 
     footer{
         display: grid;
-<<<<<<< HEAD
-        grid-template-rows: repeat(2, 1fr);
-=======
         grid-template-columns: repeat(2, 1fr);
->>>>>>> 38f2049485d1765516828b1978dbafe5c1a4eb64
     }
 
 }
@@ -219,11 +208,6 @@ h3{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-<<<<<<< HEAD
-    nav {
-        display: grid;
-        grid-template-rows: repeat(2, 1fr);
-=======
 
     header{
         height: 100px;
@@ -235,16 +219,11 @@ h3{
         grid-template-columns: repeat(3, 1fr);
         align-content: center;
         margin: 30px;
->>>>>>> 38f2049485d1765516828b1978dbafe5c1a4eb64
     }
 
     footer{
         display: grid;
-<<<<<<< HEAD
-        grid-template-rows: repeat(2, 1fr);
-=======
         grid-template-columns: repeat(2, 1fr);
->>>>>>> 38f2049485d1765516828b1978dbafe5c1a4eb64
     }
 }
     
