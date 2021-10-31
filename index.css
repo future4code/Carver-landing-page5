@@ -1,4 +1,8 @@
 /* STYLE INDEX */
+
+/* ESTILOS - HEADER */
+/* ESTILOS - BODY */
+/* ESTILOS - FOOTER */
 *{
     margin: 0;
     padding: 0;
@@ -12,12 +16,10 @@ font-family: 'Garamond';
 
 header{
     display: flex;
-    
     align-items: center;
     height: 50px;
     background-color:white;
-    border: 2px solid black;
-    
+      
 }
 
 nav{
@@ -33,31 +35,45 @@ nav{
 
 }
 
-li, a, button{
+a, button{
     font-weight: 550px;
-    font-size: 13px;
-    color: red;
+    font-size: 17px;
+    color:  #66402b;
     text-decoration:none;
 }
 
 button {
-    padding: 0x 20px;
-    font-size: 10px;
+    padding: 5px 5px;
+    font-size: 14px;
     align-items: center;
     border:1px black;
-    
-
+    color: #66402b;
+    font-family: 'Garamond';
 }
+    
+    
+    /* button{
+        padding: 5px 5px;
+        align-items: center;
+        font-size: 14px;
+        color: #66402b;
+        font-family: 'Garamond';
+    }
+    li, a{
+        font-size: 17px;
+        color: #66402b;
+        text-decoration:none;
+    }
+} */
 
-button {
+/* button {
     padding: 9px 23px;
 
-}
+} */
 
 section {
     display:flex;
     align-items: center;
-    border:2px red;
 
 }
 
@@ -83,15 +99,17 @@ section>div{
     width: 50%;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 2px solid black;
     text-align: justify;
+    color: #592d15;
     
     
 } 
 
 .click :hover{
     justify-content: space-around;
-    color:blue;
+    color: white;
+    background-color: #66402b;
+     ;
 
 
 }
@@ -104,8 +122,8 @@ section>div{
 }
 
 
-.menu-links li a:hover{
-    color: black
+a:hover{
+    color: #ac9485;
 }
 
 
@@ -115,9 +133,9 @@ footer{
     height: 90px;
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid black;
     margin: 0 auto;
     list-style: none;
+    
     }
 
     
@@ -139,5 +157,41 @@ footer{
     width: 20px;
 
 }
+.footer-title-4 img:hover{
+    opacity: 50%;
+}
 
+.footer-email button:hover{
+    background-color: #66402b ;
+    color: white;
+}
 
+#cart:hover{
+    opacity: 50%;
+}
+
+h3{
+    color: #592d15
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    section {
+
+        align-items:center;
+        flex-direction: column;
+
+    }
+    footer {
+     display:grid;
+     grid-template-rows: repeat(2,1fr);
+     padding: 80px ;
+     
+    }
+    nav {
+     display:grid;
+     grid-template-rows: repeat(2);
+     padding: 80px ;
+     
+
+    }
+}
