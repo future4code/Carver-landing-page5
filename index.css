@@ -1,6 +1,6 @@
 /* STYLE INDEX */
 
-/* ESTILOS - HEADER */
+
 /* ESTILOS - BODY */
 /* ESTILOS - FOOTER */
 *{
@@ -13,7 +13,7 @@ body{
 font-family: 'Garamond';
 }
 
-
+/* ESTILOS - HEADER */
 header{
     display: flex;
     align-items: center;
@@ -52,24 +52,6 @@ button {
 }
     
     
-    /* button{
-        padding: 5px 5px;
-        align-items: center;
-        font-size: 14px;
-        color: #66402b;
-        font-family: 'Garamond';
-    }
-    li, a{
-        font-size: 17px;
-        color: #66402b;
-        text-decoration:none;
-    }
-} */
-
-/* button {
-    padding: 9px 23px;
-
-} */
 
 section {
     display:flex;
@@ -89,9 +71,7 @@ section {
         
 }
 
-/* .img-about{
-    height: 150px;
-    width: 200px; */
+
 
 section>div{
     display: flex;
@@ -174,31 +154,11 @@ h3{
     color: #592d15
 }
 
-@media screen and (min-device-width : 320px) and (max-device-width : 480px){
-    section {
+/* RESPONSIVIDADE */
 
-        align-items:center;
-        flex-direction: column;
 
-    }
-    footer {
-     display:grid;
-     grid-template-rows: repeat(2,1fr);
-     padding: 80px ;
-     
-    }
-    nav {
-     display:grid;
-     grid-template-rows: repeat(2);
-     padding: 80px ;
-     
-
-    }
-}
-
-/* :-moz-user-disabled */
 @media screen and (max-device-width : 480px) {
-    /* celulares */
+   
 
     header{
         height: 100px;
@@ -212,9 +172,16 @@ h3{
         margin: 20px;
     }
 
+    section {
+
+        align-items:center;
+        flex-direction: column;
+    }
+
     footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        padding: 40px
     }
 
     .footer-title-2 {
