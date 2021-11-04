@@ -1,0 +1,203 @@
+/* STYLE INDEX */
+
+
+/* ESTILOS - BODY */
+/* ESTILOS - FOOTER */
+*{
+    margin: 0;
+    padding: 0;
+   
+ }
+
+body{
+font-family: 'Garamond';
+}
+
+/* ESTILOS - HEADER */
+header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color:white;
+      
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#cart{
+    width: 20px;
+
+}
+
+a, button{
+    font-weight: 550px;
+    font-size: 17px;
+    color:  #66402b;
+    text-decoration:none;
+}
+
+button {
+    padding: 5px 5px;
+    font-size: 14px;
+    align-items: center;
+    border:1px black;
+    color: #66402b;
+    font-family: 'Garamond';
+}
+    
+    
+
+section {
+    display:flex;
+    align-items: center;
+
+}
+
+.search-box{
+    height:40px;
+    border-radius: 40px; 
+    padding: 9px;
+    
+}
+
+.img-logo{
+    width: 120px;
+        
+}
+
+
+
+section>div{
+    display: flex;
+    height: 40vh;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
+    color: #592d15;
+    
+    
+} 
+
+.click :hover{
+    justify-content: space-around;
+    color: white;
+    background-color: #66402b;
+     ;
+
+
+}
+
+.menu-links li{
+    display: inline-block;
+    align-items: flex-end;
+    padding: 0px 40px;
+    
+}
+
+
+a:hover{
+    color: #ac9485;
+}
+
+
+
+footer{
+    
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    list-style: none;
+    
+    }
+
+    
+
+.footer-title-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title-4 div {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.footer-title-4 img {
+    width: 20px;
+
+}
+.footer-title-4 img:hover{
+    opacity: 50%;
+}
+
+.footer-email button:hover{
+    background-color: #66402b ;
+    color: white;
+}
+
+#cart:hover{
+    opacity: 50%;
+}
+
+h3{
+    color: #592d15
+}
+
+/* RESPONSIVIDADE */
+
+
+@media screen and (max-device-width : 480px) {
+   
+
+    header{
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-content: center;
+        margin: 20px;
+    }
+
+    section {
+
+        align-items:center;
+        flex-direction: column;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px
+    }
+
+    .footer-title-2 {
+        margin-top: 10px;
+    }
+
+    .footer-title-3 {
+        margin-top: 10px;
+    }
+
+    .footer-title-4 {
+        margin-top: 10px;
+    }
+
+    .footer-email{
+        margin-top: 10px;
+    }
+
+}
